@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/auditargvyard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audit filesystem argv paths across POSIX and Windows conventions.",
+  "bin": {
+    "auditargvyard": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/auditargvyard.git"
+  },
+  "homepage": "https://theworker02.github.io/auditargvyard/",
+  "keywords": [
+    "audit",
+    "argv",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
